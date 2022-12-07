@@ -5,6 +5,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+
 bool isRunning = true;
 void Menu();
 void AddNewNumber();
