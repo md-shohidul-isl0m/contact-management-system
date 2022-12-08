@@ -1,4 +1,27 @@
-#include<stdio.h>
+#include <windows.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+
+bool isRunning = true;
+void Menu();
+void AddNewNumber();    //shohidul
+void ShowAllContacts();
+void SearchContact();
+void EditContact();    //shohidul
+void DeleteContact();    //shohidul
+void DeleteAllContacts();    //shohidul
+void PrintLineWithSpace(char *Name[20],char ContactInfo);
+void ShowPhoneWithSpace(char *Phone[20]);
+void ShowEmailWithSpace(char *Email[30]);
+void ErrorAndRestart(char *error[100]);
+bool AlreadyExists(char *GivenLine[30],char ContactInfo);
+void GoBackOrExit();
+void Exit();
+
 int main(){
     int i;
     printf("\t\t");
