@@ -38,17 +38,6 @@ int main(){
             case '6':
                 DeleteAllContacts();
                 break;
-            case '7':
-                system("cls");
-                break;
-            case 'I':
-            case 'i':
-                UserGuideline();
-                break;
-            case 'A':
-            case 'a':
-                AboutUs();
-                break;
             default:
                 ErrorAndRestart("Option not found!");
                 break;
